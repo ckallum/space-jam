@@ -2,7 +2,6 @@
 
 A two-player space shooter game created for the "Emergent Chaos" Game Jam 2025.
 
-![Game Screenshot](gamescreen.png)
 
 ## Game Description
 
@@ -66,7 +65,7 @@ The combination of player-versus-player combat and the ever-changing battlefield
 
 ## Credits
 
-- Game Design & Programming: [Your Name]
+- Game Design & Programming: Me 
 - Inspired by Conway's Game of Life and classic arcade shooters
 
 Enjoy the chaos!
