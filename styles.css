@@ -1,0 +1,75 @@
+body {
+    background-color: #111; /* Dark space background */
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace; /* Pixel-like font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+h1 {
+    color: #0f0; /* Green retro color */
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    width: 800px; /* Match canvas width */
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#player1-info {
+    color: #4af; /* Blueish for Player 1 */
+}
+
+#player2-info {
+    color: #fa4; /* Orangish for Player 2 */
+}
+
+
+canvas {
+    border: 2px solid #555;
+    background-color: #000; /* Black canvas background */
+    display: block; /* Remove extra space below canvas */
+}
+
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(50, 50, 50, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    color: #fff;
+}
+
+#gameOver h2 {
+    color: #f55; /* Reddish for Game Over */
+    margin-bottom: 15px;
+}
+
+#gameOver p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #0f0;
+    border: none;
+    color: #111;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
